@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINK CSS FILE HERE-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>My Calculator</title>
+</head>
+<body>
+<div class="container">
+    <div class="calculator">
+        <input type="text" id="displaybar" placeholder="0">
+        <button onclick="clear()">C</button>
+        <button onclick="deleteInput()">DEL</button>
+        <button onclick="performCalculate('%')">%</button>
+        <button onclick="performCalculate('/')">/</button>
+        <button onclick="performCalculate(7)">7</button>
+        <button onclick="performCalculate(8)">8</button>
+        <button onclick="performCalculate(9)">9</button>
+        <button onclick="performCalculate('*')">*</button>
+        <button onclick="performCalculate(4)">4</button>
+        <button onclick="performCalculate(5)">5</button>
+        <button onclick="performCalculate(6)">6</button>
+        <button onclick="performCalculate('-')">-</button>
+        <button onclick="performCalculate(1)">1</button>
+        <button onclick="performCalculate(2)">2</button>
+        <button onclick="performCalculate(3)">3</button>
+        <button onclick="performCalculate('+')">+</button>
+        <button onclick="performCalculate('.')">.</button>
+        <button onclick="performCalculate(0)">0</button>
+        <button class="equalsTo" onclick="Result('')">=</button>
+
+        <!--LINK JAVASCRIPT FILES HERE-->
+        <script type="text/javascript" src="js/script.js"></script>
+    </div>
+</div>
+</body>
+</html>
